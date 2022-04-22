@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/page2', function () {
     return view('menu');
 });
+
+Route::get('/empresas', 'CompanyController@index');
